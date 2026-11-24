@@ -1,0 +1,297 @@
+{
+  "package_name": "Tarcza_AISAFE_GitHub_7Day_Trial_v7.0.0_Beta",
+  "version": "7.0.0-Beta",
+  "copyright_owner": "Brain in a Hat Limited (c) 2026 · Ecosystem EdgeMind & theAIlaws.com",
+  "copyright_seal": "COPYRIGHT (C) 2026 BRAIN IN A HAT LIMITED | ECOSYSTEM EDGEMIND & THEAILAWS.COM | TARCZA AISAFE v7.0 Beta PROPRIETARY INTELLECTUAL PROPERTY | ALL RIGHTS RESERVED",
+  "compiler_version": "AISAFE-IP-Compiler-v7.0-Beta-Anti-AI-Agent-Fortress",
+  "compiled_at_utc": "2026-11-24T14:54:03Z",
+  "anti_ai_agent_defenses": {
+    "layer_1_wasm_binary_kernel": "wasm/aisafe_core_kernel.wasm (Binary WebAssembly VM bytecode)",
+    "layer_2_key_gated_vault": {
+      "vault_file": "vault/aisafe_pro_vault.bin",
+      "cipher": "100,000-Round PBKDF2-HMAC-SHA512 + SHAKE-256 Stream Cipher",
+      "key_present_in_client_code": false,
+      "shannon_entropy_bits_per_byte": 7.7053,
+      "server_key_commitment_sha3_256": "6b1a46331fd995ca03bba1f79e54cfffb869f7b5d9e52b8cdac1768916a26a97"
+    },
+    "layer_3_python_enclave": "Build-Time Marshal Bytecode + 25,000-Round PBKDF2-SHAKE256 + PEP-669 sys.monitoring Guard + Builtin Hook Detector + Silent Honey-Decoy Trap",
+    "layer_4_js_protection": "MV3-Safe Polymorphic Symbol Virtualization + Function.prototype.toString Native Hook Trap + Copyright CRC32 Lock"
+  },
+  "statistics": {
+    "python_files_encrypted": 1,
+    "js_files_obfuscated": 6,
+    "html_css_minified": 2,
+    "wasm_kernels_compiled": 1,
+    "key_gated_vaults_sealed": 1,
+    "assets_copied": 33,
+    "total_files": 44
+  },
+  "files": [
+    {
+      "path": "background.js",
+      "size_bytes": 3439,
+      "sha256": "75e778b21227aa334efa0092907ba896b6949b76b7bca543ca2c52bcca74da6b",
+      "protection": "JS_POLYMORPHIC_SEALED_ANTI_HOOK"
+    },
+    {
+      "path": "manifest.json",
+      "size_bytes": 3374,
+      "sha256": "1ceb1d792e5427bc12c91cfaec23e9deb4dd7a8f21060fcd15b4f286de310bf4",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "content-scripts/doot-guard.js",
+      "size_bytes": 4466,
+      "sha256": "ff310534ad5d33ea0e85b8752e3d69206738c08983efe89074a50ce786bc9b09",
+      "protection": "JS_POLYMORPHIC_SEALED_ANTI_HOOK"
+    },
+    {
+      "path": "content-scripts/floating-shield-button.js",
+      "size_bytes": 9777,
+      "sha256": "6d2a7fbe3e0bf874e29d228d1fccf8de86cc5c264c431a84e4ed0afa33977155",
+      "protection": "JS_POLYMORPHIC_SEALED_ANTI_HOOK"
+    },
+    {
+      "path": "content-scripts/ingress-cloak.js",
+      "size_bytes": 11297,
+      "sha256": "02dbefdbc3d5e18f2107f6c0f9d23e4f6a95c28c3799abb3dd077f92930dc2c0",
+      "protection": "JS_POLYMORPHIC_SEALED_ANTI_HOOK"
+    },
+    {
+      "path": "content-scripts/pohv-sentinel.js",
+      "size_bytes": 2730,
+      "sha256": "121c88c75d9f39398e0ff02afec0a2a45b792dc001e3b833ac20620786dd737a",
+      "protection": "JS_POLYMORPHIC_SEALED_ANTI_HOOK"
+    },
+    {
+      "path": "host_companion/aisafe_addon_host.py",
+      "size_bytes": 6038,
+      "sha256": "64917a408b2209691d012f03e749cdd639204d0f6cae35a59a8e48dfaf4072ae",
+      "protection": "BYTECODE_PBKDF2_SHAKE256_HONEY_DECOY"
+    },
+    {
+      "path": "icons/aisafe_shield.ico",
+      "size_bytes": 111624,
+      "sha256": "992804577d724aa2ca6550938514a5bf27f747bc4b4c8baaf042232415947690",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/aisafe_shield_inner_mask.png",
+      "size_bytes": 151747,
+      "sha256": "814d2345ff5d7aa282fdfab12524f845b21ce1973e26713f8e0a7e917086a734",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/aisafe_shield_transparent.png",
+      "size_bytes": 672769,
+      "sha256": "0441464514b6e92efd3c333bdc0387997ecb5ddae29908192a99405f0d7ba6a6",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/aisafe_wordmark_dark.png",
+      "size_bytes": 2790,
+      "sha256": "4fb596fff98d8bc3ff0de4db28f26e93daf975111f9a194eb89f42cac7f8974b",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/aisafe_wordmark_light.png",
+      "size_bytes": 2771,
+      "sha256": "a0363204cb2e62213e2bfc767d4efe5176fff98900af3f087cc9581ab15d80ba",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/aisafe_wordmark_original.png",
+      "size_bytes": 7773,
+      "sha256": "54aebdb4d63483b5dc71e1c86ac6a77e2b4a02530c8ba7d128d264344ff44131",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/aisafe_wordmark_violet.png",
+      "size_bytes": 2743,
+      "sha256": "9061995f4bdb779bd12dacbb2e8f3c9f26706b8bfc75a8937bdb2c80231a974e",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/icon128.png",
+      "size_bytes": 22583,
+      "sha256": "75107dc2dda421e12583c6da0bd939241ae812852b79c41af23a8fac96700ccd",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/icon16.png",
+      "size_bytes": 1204,
+      "sha256": "b28efab283312c1966a059a57ed001cd9039201f710dd0f73e1c3245c7d47983",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/icon256.png",
+      "size_bytes": 71020,
+      "sha256": "bdc2c83bf6c5a51c10e94462c15cd06d7ecd0a33f80cc8c6e9088571a76276c7",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/icon32.png",
+      "size_bytes": 2959,
+      "sha256": "1885c7f178d1683e360b491d398565b25b91df67e31995cd5b1d0ce896b9fae9",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/icon48.png",
+      "size_bytes": 5246,
+      "sha256": "50fad27faa50e3a47d9e87c9cfb9d6da486ca5c46036669f425d72eac8f9ac6c",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/icon64.png",
+      "size_bytes": 7939,
+      "sha256": "fd73e6eb427656607e16c127ff72c2d51919319d2e936f33d79812658cfee9a1",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "icons/icon96.png",
+      "size_bytes": 14569,
+      "sha256": "d85bf9dc368a805c5905c69c34d1ccebb962fb138c97cfd3a731cee088991bbd",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "locales/de.json",
+      "size_bytes": 7644,
+      "sha256": "989dcc6d00e2ce7f9194581b38218fb58580f27d1c0428278fc9c7dbbaa57ac1",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "locales/en.json",
+      "size_bytes": 7277,
+      "sha256": "071251ea012af92b6cb1e9d3fcc50bc8620619238afa615bf06b27710911a37f",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "locales/es.json",
+      "size_bytes": 7799,
+      "sha256": "f4eb5612d8df192cdb0c1912d021e0e506b0f3aa3ac4a42e61dcfe114dbfa53b",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "locales/fr.json",
+      "size_bytes": 7897,
+      "sha256": "cb324f917b50d599edb2c3f8d3728d768ae57dd2b9ab5da784631191692c79cb",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "locales/it.json",
+      "size_bytes": 7660,
+      "sha256": "bf5c3d94eab9d8d9d69730c9107f9d24f36e96ef29640b555dd56fa260e3b640",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "locales/nl.json",
+      "size_bytes": 7536,
+      "sha256": "aa59a16a6cc2c7c1ce044c1ca09f638e97647b1e967c27e8f93d5b6d6835acf4",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "locales/pl.json",
+      "size_bytes": 7985,
+      "sha256": "edd39071ccd680e156515a7295b0387146e23fe23f0aa6053b1b64b18cd4f045",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "locales/pt.json",
+      "size_bytes": 7796,
+      "sha256": "c34e6f2acb6110024b2e932578b6914083cf3ceaf8a5d4e2b42266915570b6d0",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "popup/popup.css",
+      "size_bytes": 8096,
+      "sha256": "0618d96e660720a9355a0a84785fddbdeebc0f89d7a3dc807e947f77dddfbe5e",
+      "protection": "CSS_MINIFIED_SEALED"
+    },
+    {
+      "path": "popup/popup.html",
+      "size_bytes": 9607,
+      "sha256": "1ceaa4a1a4810fe075c65bc66427968422901101073bf358b8f1f3eace648d37",
+      "protection": "HTML_MINIFIED_SEALED"
+    },
+    {
+      "path": "popup/popup.js",
+      "size_bytes": 24578,
+      "sha256": "a4eef78948880730b4eff489f38316e30238d0720abb4a9daa3049b24a5a994b",
+      "protection": "JS_POLYMORPHIC_SEALED_ANTI_HOOK"
+    },
+    {
+      "path": "rules/declarative-net-rules.json",
+      "size_bytes": 578,
+      "sha256": "4caa23def4615c0f65c968229aa5ec3e0984b7891a4afad797339459515fb1fd",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "_locales/de/messages.json",
+      "size_bytes": 429,
+      "sha256": "ff4f2e29b46a0048cb4f6e6048fd622548d1d820808a34027c2963c6c39a4140",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "_locales/en/messages.json",
+      "size_bytes": 422,
+      "sha256": "bd4a43e9197f1c91fb4b515e8073bf225f559e29cf484bf12b2207937600d735",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "_locales/es/messages.json",
+      "size_bytes": 427,
+      "sha256": "f9ef5f88b886bf630f4f421bebaaebeece184c8ecb0e2302d183fe30b9c70291",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "_locales/fr/messages.json",
+      "size_bytes": 432,
+      "sha256": "b988d19918c1c7eb70a41f6fb18f02a09e54843f9eaeb8e480f1fe68b2d969a8",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "_locales/it/messages.json",
+      "size_bytes": 421,
+      "sha256": "62997b4ba20d7991bb0fec69663ff856390f6c6609d78c5ad347424767130363",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "_locales/nl/messages.json",
+      "size_bytes": 427,
+      "sha256": "f56f7a7b87aa379d56bc7958cfa2a6af6045cac21d4775e253dbda6bc07524ff",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "_locales/pl/messages.json",
+      "size_bytes": 423,
+      "sha256": "af38c6bed862f8db64c62ae7d97f62355420e60eca83fff81d267bf6b2083168",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "_locales/pt/messages.json",
+      "size_bytes": 419,
+      "sha256": "4d7485a68798c5748d0fe9ef10d5fe96f3b012bc2acc4f03f2f7a5b03f2f7a07",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "host_companion/__pycache__/aisafe_addon_host.cpython-314.pyc",
+      "size_bytes": 4319,
+      "sha256": "29c3cb21d62aa8b62c93f98775ac8483f1cbbce3a05a99f3684872a0924f6fe3",
+      "protection": "ASSET_INTEGRITY_LOCKED"
+    },
+    {
+      "path": "wasm/aisafe_core_kernel.wasm",
+      "size_bytes": 149,
+      "sha256": "07074bd65cc14b6a8724206cd7020d8568e88a8ae0b6011eeb7cefd6a37b146b",
+      "protection": "BINARY_WEBASSEMBLY_KERNEL_STRIPPED"
+    },
+    {
+      "path": "vault/aisafe_pro_vault.bin",
+      "size_bytes": 743,
+      "sha256": "c5f8dcd29afa718f994ec0be1369495562aae73d47c9332601c803c341b78021",
+      "entropy_bits_per_byte": 7.7053,
+      "protection": "KEY_GATED_PBKDF2_SHAKE256_SERVER_UNLOCK_ONLY"
+    }
+  ],
+  "master_manifest_sha256": "891481308b31b67aa5629fe7b09cbde6daf1c81a9f006b3b2b6a621c811960bc"
+}

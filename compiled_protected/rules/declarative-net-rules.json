@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "169.254.169.254",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "main_frame",
+        "other"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "metadata.google.internal",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "sub_frame",
+        "main_frame",
+        "other"
+      ]
+    }
+  }
+]

@@ -1,0 +1,11 @@
+name: Publish Tarcza AISAFE 7-Day Trial Add-On
+on:
+  release:
+    types: [published]
+jobs:
+  build-and-lock-ip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify AISAFE IP Compiler Seal
+        run: test -f compiled_protected/AISAFE_IP_COPYRIGHT_SEAL.json

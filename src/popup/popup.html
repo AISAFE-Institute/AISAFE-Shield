@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Edycja GitHub · v7.0 Beta · 7-Dniowy Darmowy Trial (8 Języków)</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="light-mode">
+  <!-- TOP HEADER: Official Shield + Colorized AISAFE Wordmark + Upper-Right Light/Dark Mode Toggle -->
+  <div class="header">
+    <div class="logo-row">
+      <img src="../icons/icon48.png" class="shield-ico" alt="AISAFE Shield"/>
+      <img src="../icons/aisafe_wordmark_light.png" id="wordmark-img" class="wordmark-ico" alt="AISAFE"/>
+      <span class="ver-pill">v7.0 Beta</span>
+    </div>
+    <div class="header-right">
+      <span class="trust-pill" id="tier-badge">Tier 1: 7-Day Free</span>
+      <button id="btn-theme-toggle" class="btn-theme" title="Przełącz Light / Dark Mode">🌙 Dark</button>
+    </div>
+  </div>
+  <div class="channel-bar">Edycja GitHub · v7.0 Beta · 7-Dniowy Darmowy Trial (8 Języków) · 19 Filarów + Built-in AI Agent Monitor · 100% Offline</div>
+
+  <!-- STATUS & BUILT-IN AI AGENT MONITOR CARD -->
+  <div class="status-card">
+    <div class="status-indicator">
+      <span class="dot"></span>
+      <span id="trust-level">OCHRONA KOGNITYWNA v7.0 Beta AKTYWNA</span>
+    </div>
+    <div class="subtext" id="pillars-info">Aktywne Filary: 14 / 19 · AI Agent Monitor: Level 4 (Sovereign Enclave)</div>
+    <div class="agent-row" id="agent-monitor-bar">🤖 Agent Monitor: Home/Guardrailed Active · Ring Buffer: aisafe_shm_ring.bin · 100% Local ONNX/Garak</div>
+    <div class="unit-box">
+      <div><span id="lbl-inst-id">ID Instalacji:</span> <span id="inst-id">INST-AISAFE-LOADING...</span></div>
+      <div><span id="lbl-hwid">HWID SHA-256:</span> <span id="unit-hwid">SHA256-LOADING...</span></div>
+    </div>
+  </div>
+
+  <!-- LIVE COUNTERS -->
+  <div class="counters">
+    <div class="counter-box">
+      <div class="num" id="blocked-count">0</div>
+      <div class="lbl" id="lbl-cnt-threats">Zagrożenia</div>
+    </div>
+    <div class="counter-box">
+      <div class="num" id="pii-count">0</div>
+      <div class="lbl" id="lbl-cnt-pii">PII Maskowane</div>
+    </div>
+    <div class="counter-box">
+      <div class="num" id="ssrf-count">0</div>
+      <div class="lbl" id="lbl-cnt-ssrf">SSRF Air-Gap</div>
+    </div>
+    <div class="counter-box">
+      <div class="num" id="pohv-count">0</div>
+      <div class="lbl" id="lbl-cnt-pohv">Tokeny PoHV</div>
+    </div>
+  </div>
+
+  <!-- GITHUB 7-DAY TRIAL STORE LINKS PANEL (DOWNLOAD RICHER FULL EDITION) -->
+  <div class="github-store-banner">
+    <div class="gh-banner-title">🌐 Edycja GitHub — 7-Dniowy Darmowy Trial</div>
+    <div class="gh-banner-desc">Wersja GitHub jest edycją ewaluacyjną 7-Day Free Trial. Aby uzyskać pełną, bogatszą wersję z ochroną 19 Filarów, Suwerenną Enklawą AI i nielimitowanymi Certyfikatami HAC, pobierz oficjalną wersję ze sklepów:</div>
+    <div class="gh-banner-btns">
+      <a href="https://chromewebstore.google.com/search/aisafe" id="btn-gh-google-store" target="_blank" class="btn-store btn-google">🌐 Google Web Store</a>
+      <a href="https://microsoftedge.microsoft.com/addons/search/aisafe" id="btn-gh-ms-store" target="_blank" class="btn-store btn-ms">🛒 Microsoft Marketplace</a>
+    </div>
+  </div>
+
+  <!-- DESIGN 1: STRIPE NEO-FINTECH MINIMALIST SPLIT-SCREEN LICENSE PURCHASE SYSTEM -->
+  <div class="purchase-panel">
+    <div class="sec-title" id="lbl-sec-buy">🛒 System Zakupu Licencji AISAFE (Stripe Neo-Fintech Minimalist)</div>
+    <div class="split-grid">
+      <!-- LEFT COLUMN: 4 Vertical Tier Cards -->
+      <div class="tiers-col">
+        <div class="tier-card" data-tier="TIER_1_TRIAL" data-price="$0.00">
+          <div class="t-hdr"><span>Tier 1: 7-Day Free</span><span class="t-price">$0.00</span></div>
+          <div class="t-meta">1 Urządzenie | 6 Filarów</div>
+        </div>
+        <div class="tier-card" data-tier="TIER_2_HOME" data-price="$4.99/mc">
+          <div class="t-hdr"><span>Tier 2: Home User Shield</span><span class="t-price">$4.99/mc</span></div>
+          <div class="t-meta">3 Urządzenia | 10 Filarów</div>
+        </div>
+        <div class="tier-card active" data-tier="TIER_3_FORTRESS" data-price="$49.00/mc">
+          <div class="t-hdr"><span>Tier 3: AI Fortress Pro</span><span class="t-price">$49.00/mc</span></div>
+          <div class="t-meta">10 Urządzeń | 14 Filarów — pół-profesjonaliści</div>
+        </div>
+        <div class="tier-card" data-tier="TIER_4_ENTERPRISE" data-price="$499.00/mc">
+          <div class="t-hdr"><span>Tier 4: Enterprise Sentinel</span><span class="t-price">$499.00/mc</span></div>
+          <div class="t-meta">DO 100 URZĄDZEŃ | 19 Filarów + Suwerenna Enklawa</div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Dynamic QR Scan-to-Pay + Payment Tabs + Data Fields + #635BFF CTA -->
+      <div class="checkout-col">
+        <div class="qr-row">
+          <canvas id="qr-canvas" width="54" height="54"></canvas>
+          <div class="qr-txt">
+            <div class="qr-title">📱 Scan-to-Pay QR</div>
+            <div id="qr-payload-lbl" class="qr-sub">Dynamic Session Payload</div>
+          </div>
+        </div>
+
+        <div class="pay-tabs">
+          <button class="pay-tab active" data-pay="STRIPE_CARD">💳 Karta</button>
+          <button class="pay-tab" data-pay="APPLE_GOOGLE_PAY">/G Pay</button>
+          <button class="pay-tab" data-pay="PAYPAL_EXPRESS">🅿️ PayPal</button>
+          <button class="pay-tab" data-pay="B2B_WIRE_PO">🏛️ B2B PO</button>
+        </div>
+
+        <input type="hidden" id="tier-select" value="TIER_1_TRIAL">
+        <label class="field-lbl" id="lbl-email">E-mail Transakcji &amp; Nazwa Firmy/Klienta:</label>
+        <input type="email" id="purchase-email" class="input-ctrl" placeholder="twoj.email@firma.pl" value="klient@aisafe.pl">
+        <input type="text" id="customer-name" class="input-ctrl" placeholder="Nazwa Firmy / Klienta" value="AISAFE Security Client" style="margin-top:3px;">
+        <input type="text" id="server-url" class="input-ctrl" value="http://127.0.0.1:8095" style="margin-top:3px;">
+
+        <button id="btn-buy-license" class="btn-buy">🔒 Zapłać $49.00/mc i Wygeneruj Klucz PQC</button>
+      </div>
+    </div>
+    <div id="purchase-status" class="status-msg"></div>
+  </div>
+
+  <!-- KEY ACTIVATION ROW -->
+  <div class="activate-panel">
+    <label class="field-lbl" id="lbl-activate">🔑 Posiadasz Klucz PQC? Wklej i Aktywuj:</label>
+    <div class="act-row">
+      <input type="text" id="license-key-input" class="input-ctrl mono" placeholder="AISAFE-PQ-V1-T...">
+      <button id="btn-activate-key" class="btn-act">Aktywuj</button>
+    </div>
+  </div>
+
+  <!-- BOTTOM FOOTER WITH BOTTOM-LEFT '⚙️ USTAWIENIA' COG ICON -->
+  <div class="footer-bar">
+    <button id="btn-open-settings" class="btn-cog" title="Otwórz Ustawienia Tarczy AISAFE v7.0 Beta">⚙️ Ustawienia</button>
+    <span class="autonomy-tag">AISAFE™ Shield v7.0 · Coventry, UK · AISAFE Institute Ltd 2026</span>
+  </div>
+
+  <!-- SETTINGS ('⚙️ USTAWIENIA') MODAL OVERLAY WITH DOUBLE CONFIRMATION -->
+  <div id="settings-modal" class="modal-overlay hidden">
+    <div class="modal-box">
+      <div class="modal-hdr">
+        <span>⚙️ Ustawienia Tarczy AISAFE™ v7.0 Beta</span>
+        <button id="btn-close-settings" class="btn-close-x">✕</button>
+      </div>
+
+      <!-- 1. FIRST OPTION AT THE TOP: LANGUAGE SELECTOR BY FLAG & COUNTRY NAME -->
+      <label class="field-lbl" style="color:#635BFF;font-weight:700;">1. 🌐 Wybór Języka (Flaga i Kraj / First Option at Top):</label>
+      <select id="lang-select" class="input-ctrl">
+        <option value="pl">🇵🇱 Polska — Polski (PL)</option>
+        <option value="en">🇬🇧 United Kingdom / USA — English (EN)</option>
+        <option value="de">🇩🇪 Deutschland — Deutsch (DE)</option>
+        <option value="es">🇪🇸 España — Español (ES)</option>
+        <option value="fr">🇫🇷 France — Français (FR)</option>
+        <option value="it">🇮🇹 Italia — Italiano (IT)</option>
+        <option value="nl">🇳🇱 Nederland — Nederlands (NL)</option>
+        <option value="pt">🇵🇹 Portugal / Brasil — Português (PT)</option>
+      </select>
+
+      <!-- 2. BUILT-IN AI AGENT MONITOR VARIABLE LEVEL SELECTOR -->
+      <label class="field-lbl">2. 🤖 Poziom Aplikacji Wbudowanego Monitora Agentów AI (Levels 0..4):</label>
+      <select id="agent-level-select" class="input-ctrl">
+        <option value="0">Level 0: OFF (Monitor Wyłączony)</option>
+        <option value="1">Level 1: Basic Telemetry (Tylko Obserwacja)</option>
+        <option value="2">Level 2: Standard Guard (Blokada Alien Agents)</option>
+        <option value="3">Level 3: Strict Fortress (Blokada Virgin Agents + Breaker)</option>
+        <option value="4" selected>Level 4: Sovereign Enclave (Full OCAP NanoTickets + Ring Buffer)</option>
+      </select>
+
+      <!-- 3. 19 PILLARS & EXTRAS TOGGLES -->
+      <label class="field-lbl">3. 🛡️ Aktywne Filary (19/19) &amp; Moduły Dodatkowe:</label>
+      <div class="pillars-mini-grid">
+        <label><input type="checkbox" checked> P01-P06 Ingress &amp; Six AI Laws</label>
+        <label><input type="checkbox" checked> P07-P12 Local ONNX, PII Cloak &amp; DIFT</label>
+        <label><input type="checkbox" checked> P13-P19 Dual-Pass Image, PoHV, NanoTickets</label>
+        <label><input type="checkbox" id="chk-rec7-judge" checked> [Rec #7] Strict Synchronous Pre-Send Gate</label>
+      </div>
+
+      <!-- 4. AUTONOMOUS UPDATES SECURITY MODE (PROTECTED BY DOUBLE CONFIRMATION) -->
+      <label class="field-lbl">4. 🔒 Tryb Aktualizacji (Chroniony Podwójnym Potwierdzeniem Amber + Red):</label>
+      <select id="update-mode-select" class="input-ctrl">
+        <option value="OFFLINE_AUTONOMOUS">🔒 100% Autonomiczny Tryb Offline (Domyślny)</option>
+        <option value="USER_CONSENT_ONLY">🛡️ Aktualizacje z Serwera AISAFE Tylko za Zgodą</option>
+        <option value="AUTO_AISAFE_SERVER">⚡ Automatyczne Aktualizacje z Serwera AISAFE</option>
+      </select>
+
+      <!-- DOUBLE CONFIRMATION BOX (AMBER STEP 1 & RED STEP 2 WITH NON-PASTING LOCK) -->
+      <div id="double-confirm-box" class="confirm-box hidden">
+        <div id="confirm-step-title" class="confirm-title">⚠️ KROK 1/2 (AMBER): Potwierdź zmianę trybu</div>
+        <div id="confirm-step-desc" class="confirm-desc">Wpisz ręcznie słowo 'tak' poniżej (Blokada Wklejania Aktywna):</div>
+        <input type="text" id="confirm-yes-input" class="input-ctrl mono" autocomplete="off" placeholder="Wpisz ręcznie z klawiatury...">
+        <div id="confirm-err-msg" class="confirm-err"></div>
+        <div class="act-row" style="margin-top:5px;">
+          <button id="btn-confirm-cancel" class="btn-act" style="background:#64748B;">Anuluj</button>
+          <button id="btn-confirm-next" class="btn-act" style="background:#F59E0B;">Potwierdź Krok</button>
+        </div>
+      </div>
+
+      <button id="btn-save-settings" class="btn-buy" style="margin-top:10px;">💾 Zapisz Ustawienia v7.0 Beta</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

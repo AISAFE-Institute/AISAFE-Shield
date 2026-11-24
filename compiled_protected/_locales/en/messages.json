@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "AISAFE™ Shield v7.0 Beta — Sovereign AI Protection"
+  },
+  "appDesc": {
+    "message": "19-Pillar Cognitive AI Firewall + Built-in AI Agent Monitor, Zero-Gap PII Data Cloak, SSRF Air-Gap, PoHV & Post-Quantum Licensing."
+  },
+  "statusActive": {
+    "message": "COGNITIVE PROTECTION v7.0 Beta ACTIVE"
+  },
+  "buyButton": {
+    "message": "🔒 Pay & Generate PQC Key"
+  }
+}

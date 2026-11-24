@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Bouclier AISAFE™ v7.0 Beta — Protection IA Souveraine"
+  },
+  "appDesc": {
+    "message": "Pare-feu Cognitif IA à 19 Piliers + Moniteur d'Agents IA Intégré, Masquage PII Data Cloak, SSRF Air-Gap, PoHV et Licences PQC."
+  },
+  "statusActive": {
+    "message": "PROTECTION COGNITIVE v7.0 Beta ACTIVE"
+  },
+  "buyButton": {
+    "message": "🔒 Payer et Générer la Clé PQC"
+  }
+}

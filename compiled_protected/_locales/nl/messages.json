@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "AISAFE Schild™ v7.0 Beta — Soevereine AI-Bescherming"
+  },
+  "appDesc": {
+    "message": "19-Pijler Cognitieve AI-Firewall + Ingebouwde AI-Agent Monitor, PII Data Cloak, SSRF Air-Gap, PoHV & Post-Quantum Licenties."
+  },
+  "statusActive": {
+    "message": "COGNITIEVE BESCHERMING v7.0 Beta ACTIEF"
+  },
+  "buyButton": {
+    "message": "🔒 Betaal & Genereer PQC-Sleutel"
+  }
+}

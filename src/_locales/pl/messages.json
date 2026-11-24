@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Tarcza AISAFE™ v7.0 Beta — Suwerenna Ochrona AI"
+  },
+  "appDesc": {
+    "message": "19-Filarowa Tarcza Kognitywna AI + Wbudowany Monitor Agentów AI, Maskowanie PII Data Cloak, SSRF Air-Gap, PoHV i Licencje PQC."
+  },
+  "statusActive": {
+    "message": "OCHRONA KOGNITYWNA v7.0 Beta AKTYWNA"
+  },
+  "buyButton": {
+    "message": "🔒 Zapłać i Wygeneruj Klucz PQC"
+  }
+}

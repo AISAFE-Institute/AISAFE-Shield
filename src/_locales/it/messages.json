@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Scudo AISAFE™ v7.0 Beta — Protezione IA Sovrana"
+  },
+  "appDesc": {
+    "message": "Firewall Cognitivo IA a 19 Pilastri + Monitor Agenti IA Integrato, Mascheramento PII Data Cloak, SSRF Air-Gap, PoHV e Licenze PQC."
+  },
+  "statusActive": {
+    "message": "PROTEZIONE COGNITIVA v7.0 Beta ATTIVA"
+  },
+  "buyButton": {
+    "message": "🔒 Paga e Genera Chiave PQC"
+  }
+}

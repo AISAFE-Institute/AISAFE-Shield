@@ -1,0 +1,55 @@
+# ==============================================================================
+# AISAFE™ SHIELD SENTINEL — GITIGNORE
+# Prevents accidental leakage of bytecode, build stages, sensitive logs & secrets
+# ==============================================================================
+
+# Python Bytecode & Runtime Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller & Build Compilers
+build/
+pyi_build/
+pyi_dist/
+_stage_v7_core/
+*.spec.bak
+
+# Sensitive Local Data, Logs & Telemetry
+*.log
+*.sqlite3
+*.db
+local_orders.db
+stripe_orders.db
+aisafe_security_audit.log
+*.tmp
+temp/
+scratch/
+
+# Inno Setup & Installer Temp Artifacts
+_issetup/
+Output/*.tmp
+
+# IDEs & System Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Package Locks (Keep distribution zips, ignore volatile unsealed temp zips)
+*.zip.tmp
+*.crx.tmp

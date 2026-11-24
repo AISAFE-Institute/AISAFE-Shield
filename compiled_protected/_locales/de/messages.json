@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "AISAFE Schild™ v7.0 Beta — Souveräner KI-Schutz"
+  },
+  "appDesc": {
+    "message": "19-Säulen KI-Sicherheits-Firewall + Integrierter KI-Agenten-Monitor, PII Data Cloak, SSRF Air-Gap, PoHV & Post-Quanten-Lizenzen."
+  },
+  "statusActive": {
+    "message": "KOGNITIVER SCHUTZ v7.0 Beta AKTIV"
+  },
+  "buyButton": {
+    "message": "🔒 Bezahlen & PQC-Schlüssel generieren"
+  }
+}

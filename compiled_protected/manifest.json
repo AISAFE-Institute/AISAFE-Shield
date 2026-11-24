@@ -1,0 +1,121 @@
+{
+  "manifest_version": 3,
+  "name": "Tarcza AISAFE™ v7.0 Beta — 7-Day Free Trial (GitHub Add-On)",
+  "version": "7.0.0",
+  "version_name": "7.0.0 Beta",
+  "default_locale": "pl",
+  "author": "Brain in a Hat Limited (c) 2026",
+  "description": "Tarcza AISAFE™ v7.0 Beta: 19-Filarowa Ochrona AI + Wbudowany Monitor Agentów AI, Stripe Neo-Fintech Minimalist UI, 100% Offline ONNX/Garak (8 Języków).",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "activeTab",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "*://gemini.google.com/*",
+    "*://aistudio.google.com/*",
+    "*://chatgpt.com/*",
+    "*://*.openai.com/*",
+    "*://grok.com/*",
+    "*://x.com/*",
+    "*://*.perplexity.ai/*",
+    "*://claude.ai/*",
+    "*://*.anthropic.com/*",
+    "*://chat.mistral.ai/*",
+    "*://*.mistral.ai/*",
+    "*://openrouter.ai/*",
+    "*://copilot.microsoft.com/*",
+    "*://*.deepseek.com/*",
+    "*://*.cohere.com/*",
+    "*://*.meta.ai/*",
+    "*://poe.com/*",
+    "*://you.com/*",
+    "*://huggingface.co/*",
+    "*://kimi.moonshot.cn/*",
+    "*://*.qwen.ai/*",
+    "*://pi.ai/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://gemini.google.com/*",
+        "*://aistudio.google.com/*",
+        "*://chatgpt.com/*",
+        "*://*.openai.com/*",
+        "*://grok.com/*",
+        "*://x.com/*",
+        "*://*.perplexity.ai/*",
+        "*://claude.ai/*",
+        "*://*.anthropic.com/*",
+        "*://chat.mistral.ai/*",
+        "*://*.mistral.ai/*",
+        "*://openrouter.ai/*",
+        "*://copilot.microsoft.com/*",
+        "*://*.deepseek.com/*",
+        "*://*.cohere.com/*",
+        "*://*.meta.ai/*",
+        "*://poe.com/*",
+        "*://you.com/*",
+        "*://huggingface.co/*",
+        "*://kimi.moonshot.cn/*",
+        "*://*.qwen.ai/*",
+        "*://pi.ai/*"
+      ],
+      "js": [
+        "content-scripts/ingress-cloak.js",
+        "content-scripts/pohv-sentinel.js",
+        "content-scripts/doot-guard.js",
+        "content-scripts/floating-shield-button.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/aisafe_shield_transparent.png",
+        "icons/aisafe_wordmark_light.png",
+        "icons/aisafe_wordmark_dark.png",
+        "icons/icon48.png",
+        "icons/icon96.png",
+        "icons/icon128.png",
+        "wasm/aisafe_core_kernel.wasm",
+        "vault/aisafe_pro_vault.bin"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Tarcza AISAFE™ v7.0 Beta — 7-Day Free Trial (GitHub Add-On)",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules/declarative-net-rules.json"
+      }
+    ]
+  },
+  "homepage_url": "https://github.com/BrainInAHat/AISAFE-Shield"
+}
